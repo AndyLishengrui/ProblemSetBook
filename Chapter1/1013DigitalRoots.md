@@ -1,20 +1,20 @@
-## 1013 数字根
+## 1013 Digital Roots
 
 ### 一、题目
 
 #### 描述
 
-> 正整数的数字根是通过对整数的数字求和而得出的。如果结果值是一个数字，那么该数字就是数字根。如果结果值包含两个或多个数字，则将这些数字相加并重复该过程。只要获得一位数字就可以继续进行。
+> The digital root of a positive integer is found by summing the digits of the integer. If the resulting value is a single digit then that digit is the digital root. If the resulting value contains two or more digits, those digits are summed and the process is repeated. This is continued as long as necessary to obtain a single digit.
 >
-> 例如，考虑正整数24。将2和4相加得出的值为6。由于6是一个数字，所以6是24的数字根。现在考虑正整数39。将3和9相加得出12.由于12不是单个数字，因此必须重复该过程。将数字1和2乘以3，一个数字，再加上39的数字根。  
+> For example, consider the positive integer 24. Adding the 2 and the 4 yields a value of 6. Since 6 is a single digit, 6 is the digital root of 24. Now consider the positive integer 39. Adding the 3 and the 9 yields 12. Since 12 is not a single digit, the process must be repeated. Adding the 1 and the 2 yeilds 3, a single digit and also the digital root of 39.  
 
 #### 输入
 
-> 输入文件将包含一个正整数列表，每行一个。输入的末尾将由零表示。
+> The input file will contain a list of positive integers, one per line. The end of the input will be indicated by an integer value of zero.
 
 #### 输出
 
-> 对于输入中的每个整数，在输出的单独一行上输出其数字根。
+> For each integer in the input, output its digital root on a separate line of the output.
 
 #### 样本输入
 
@@ -27,9 +27,13 @@
 > 6
 > 3
 
-### 二、题解
+#### 来源
 
-作者：XXXX
+> HDU 1013 http://acm.hdu.edu.cn/showproblem.php?pid=1013
+
+
+
+### 二、题解
 
 #### 题目大意
 
@@ -37,7 +41,7 @@
 
 数字根的定义是：将输入的整数各个位上的数相加，若所得数小于10则输出，否则将所得数的各位继续相加，直至所得数小于10。
 
-#### 题目分析
+#### 解题思路
 
 需要注意的是，输入的整数可能不在int范围内，甚至不在long范围内，所以用字符串来处理会比较得当。
 
@@ -45,7 +49,7 @@
 
 最后相加完后再来判断和是否大于等于10，把和拿来再一次循环，直至最后所得数小于10.
 
-#### AC代码
+#### 参考代码(带注释)
 
 ```
 #include <stdio.h>
