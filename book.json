@@ -1,0 +1,20 @@
+{
+  "author": "XMUOJ",
+  "description": "This is the first book for XMUOJ",
+    "pdf": {
+    "fontSize": 12,
+    "footerTemplate": null,
+    "headerTemplate": null,
+    "margin": {
+      "bottom": 36,
+      "left": 32,
+      "right": 32,
+      "top": 36
+    },
+    "pageNumbers": true,
+    "paperSize": "a4"
+  },
+  "plugins": [],
+  "title": "ACM兴趣班百题解",
+  "variables": {}
+}
