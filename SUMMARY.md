@@ -97,4 +97,8 @@
     * [2568](chapter2/2568.md)
     * [2700](chapter2/2700.md)
     * [2710](chapter2/2710.md)
+    * [luogu1413](chapter2/luogu1413.md)
+    * [luogu1579](chapter2/luogu1579.md)
+    * [luogu2705](chapter2/luogu2705.md)
+    * [luogu2799](chapter2/luogu2799.md)
 
