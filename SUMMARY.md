@@ -48,10 +48,5 @@
     * [2041 超级楼梯](chapter1/2041.md)
     * [2042 不容易系列之二](chapter1/2042.md)
     * [2043 密码](chapter1/2043.md)
-    * [2051 Bitset](chapter1/2051.md)
-    * [2053  Switch Game](chapter1/2053.md)
-    * [2521 反素数](chapter1/2521.md)
-    * [2523 SORT AGAIN](chapter1/2523.md)
-    * [2524  矩形A + B](chapter1/2524.md)
 * [中级篇——后50题](Chapter2/Readme.md)
 
