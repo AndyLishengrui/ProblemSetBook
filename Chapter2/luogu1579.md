@@ -55,7 +55,7 @@
 
 #### 参考程序
 
-```
+```c++
 #include <stdio.h>
 int zs (int a)
 {

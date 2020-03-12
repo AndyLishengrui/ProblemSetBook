@@ -46,7 +46,7 @@
 
 #### 参考程序
 
-```
+```c++
 #include<bits/stdc++.h>
 using namespace std;
 int R,B,r,b,A;

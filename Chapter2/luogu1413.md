@@ -59,7 +59,7 @@
 
 #### 参考程序
 
-```
+```c++
 #include<iostream>  
 using namespace std;  
 
